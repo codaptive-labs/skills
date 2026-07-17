@@ -1,0 +1,11 @@
+{
+  "name": "rubric-builder",
+  "description": "Turns rubric-writing from a blank-page chore into a short interview with a quality gate at the end — and hands back a formatted rubric, not a wall of chat text. It asks what the task is and what mastery looks like, drafts weighted criteria against bundled exemplar rubrics, runs a quality pass (observable criteria, no double-barreled rows, honest weightings), and produces both an instructor rubric and a plain student-facing version. Use when building a rubric, grading criteria, or a scoring guide, or to quality-check a rubric you already have. Trigger phrases include \"build a rubric\", \"make a rubric for this assignment\", \"grading criteria\", \"scoring guide\", \"check my rubric\".",
+  "version": "0.1.0",
+  "author": {
+    "name": "Codaptive Labs",
+    "url": "https://codaptivelabs.com"
+  },
+  "homepage": "https://codaptivelabs.com/skills",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ai-use-disclosure",
+  "description": "Drafts an honest, right-sized statement of how AI was actually used in a piece of work, matched to where it's going — a journal, a classroom, a workplace. It reconstructs how AI actually contributed during the session (ideation, drafting, editing, verification) and writes a disclosure sized to the venue's norms, from a one-line note to a formal statement. It's a finishing pass: spell-check at the end, not autocorrect while you type. Use when a piece is ready to ship and needs an AI-use statement, acknowledgment, or disclosure. Trigger phrases include \"write an AI disclosure\", \"how do I disclose AI use\", \"AI use statement\", \"acknowledge AI in this\", \"disclosure for this paper\".",
+  "version": "0.1.0",
+  "author": {
+    "name": "Codaptive Labs",
+    "url": "https://codaptivelabs.com"
+  },
+  "homepage": "https://codaptivelabs.com/skills",
+  "license": "MIT"
+}

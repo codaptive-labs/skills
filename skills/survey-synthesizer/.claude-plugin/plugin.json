@@ -1,0 +1,11 @@
+{
+  "name": "survey-synthesizer",
+  "description": "Turns a pile of open-ended survey responses into themes with the respondents' own voices attached. It clusters what people actually said (not what the question hoped they'd say), keeps representative verbatim quotes on every theme, flags dissent and minority views instead of averaging them away, and is honest about what the sample can and can't support. In a file-capable tool it runs on a whole folder of exports at once — a semester of course evals in a single pass. Use to analyze open-ended responses, synthesize survey comments, or find themes in feedback. Trigger phrases include \"analyze these survey responses\", \"synthesize this feedback\", \"themes in these comments\", \"summarize open-ended responses\", \"what are people saying in these evals\".",
+  "version": "0.1.0",
+  "author": {
+    "name": "Codaptive Labs",
+    "url": "https://codaptivelabs.com"
+  },
+  "homepage": "https://codaptivelabs.com/skills",
+  "license": "MIT"
+}

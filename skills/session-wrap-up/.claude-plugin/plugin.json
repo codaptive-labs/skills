@@ -1,0 +1,11 @@
+{
+  "name": "session-wrap-up",
+  "description": "End-of-session ritual that saves your progress before the context is lost. When a working session or phase is wrapping up, it reviews what happened, persists what matters to your notes and project memory, writes a short resume note so the next session starts warm, and flags any uncommitted version-control work. Use when finishing a phase or project, switching or ending a session, or stopping for the day. Trigger phrases include \"wrap up\", \"wrap-up\", \"save our progress\", \"checkpoint this\", \"update the docs and memory\", \"I'm done for now\", \"before I go\", \"ending the session\".",
+  "version": "0.1.0",
+  "author": {
+    "name": "Codaptive Labs",
+    "url": "https://codaptivelabs.com"
+  },
+  "homepage": "https://codaptivelabs.com/skills",
+  "license": "MIT"
+}

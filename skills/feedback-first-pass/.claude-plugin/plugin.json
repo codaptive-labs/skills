@@ -1,0 +1,11 @@
+{
+  "name": "feedback-first-pass",
+  "description": "Drafts formative feedback on student work in your voice and against your rubric, so your time goes to judgment instead of typing. On first run it learns your voice from 2–3 real samples of feedback you've written; then it drafts per-student comments tied to your rubric criteria — for one submission or a whole folder — flagging anywhere it wasn't confident so you can decide. It never assigns grades or scores; it drafts the words, you keep the judgment. Use when facing a stack of essays, projects, discussion posts, lab reports, or problem sets that each need written formative feedback. Trigger phrases include \"draft feedback on these\", \"help me give feedback\", \"I have a stack of essays to comment on\", \"grade these\" (it drafts comments, never grades), \"feedback in my voice\", \"respond to these submissions\", \"comment on this student's draft\".",
+  "version": "0.1.0",
+  "author": {
+    "name": "Codaptive Labs",
+    "url": "https://codaptivelabs.com"
+  },
+  "homepage": "https://codaptivelabs.com/skills",
+  "license": "MIT"
+}

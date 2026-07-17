@@ -1,0 +1,11 @@
+{
+  "name": "letter-of-rec-drafter",
+  "description": "Drafts a recommendation letter from your actual notes and memories of the person, in your letter voice, shaped to the specific opportunity — and refuses to invent accomplishments you didn't give it evidence for. On first run it learns your letter voice from a past letter or two you're proud of. Then you hand it the raw material — what you genuinely remember, their CV or résumé, the job or program they're applying to — and it drafts a voice-true letter, flags any claim it couldn't ground in your evidence, and produces the length you need: full letter, short form, or a portal text-box paragraph. Missing evidence comes back as a question, never as filler. Use during recommendation-letter season or any time someone asks you for a reference. Trigger phrases include \"write a rec letter\", \"letter of recommendation\", \"a student asked me for a reference\", \"draft a LOR\", \"recommendation for grad school\", \"reference letter for a colleague\", \"I need to write a rec for\".",
+  "version": "0.1.0",
+  "author": {
+    "name": "Codaptive Labs",
+    "url": "https://codaptivelabs.com"
+  },
+  "homepage": "https://codaptivelabs.com/skills",
+  "license": "MIT"
+}

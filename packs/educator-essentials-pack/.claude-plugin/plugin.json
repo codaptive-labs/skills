@@ -1,0 +1,11 @@
+{
+  "name": "educator-essentials-pack",
+  "version": "0.1.0",
+  "description": "The teaching wave in one install: the assessment suite, the feedback and letters pair, and the responsible-AI pair — eight coordinated skills that share vocabulary and update together.",
+  "author": {
+    "name": "Codaptive Labs",
+    "url": "https://codaptivelabs.com"
+  },
+  "homepage": "https://codaptivelabs.com/skills",
+  "license": "MIT"
+}

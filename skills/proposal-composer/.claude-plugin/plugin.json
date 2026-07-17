@@ -1,0 +1,11 @@
+{
+  "name": "proposal-composer",
+  "description": "Drafts a fee-anchored speaking, workshop, or consulting proposal from your own past comparable work. It pulls the closest engagements from your history, anchors the fee to what you've actually charged for similar work (never a number from thin air), assembles the proposal in your voice with your bio and session descriptions, and writes a private negotiation appendix — your floor, your walk-away, and what to trade instead of price. Drafts only; it never sends. Use when responding to an inquiry, preparing a pitch, or quoting a fee. Trigger phrases include \"draft a proposal\", \"what should I quote\", \"respond to this speaking inquiry\", \"write a consulting proposal\", \"price this engagement\".",
+  "version": "0.1.0",
+  "author": {
+    "name": "Codaptive Labs",
+    "url": "https://codaptivelabs.com"
+  },
+  "homepage": "https://codaptivelabs.com/skills",
+  "license": "MIT"
+}

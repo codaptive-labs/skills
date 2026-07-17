@@ -1,0 +1,11 @@
+{
+  "name": "ai-guidelines-workshop",
+  "description": "A process companion for writing AI guidelines for a team, department, or program — not a document generator. Drafting the document is the easy part; the process is where efforts stall, across stakeholders, feedback rounds, and revisions over weeks. This keeps the working state of the effort — stakeholder map, decision log, open questions, draft-in-progress — so every session starts where the last one ended, and drafts with a three-camps diagnostic and an augmentation-spectrum backbone. Use when developing AI guidelines, an AI policy, or usage principles for an organization. Trigger phrases include \"write AI guidelines for my department\", \"develop an AI policy\", \"AI usage principles\", \"our team needs AI guidelines\", \"resume the guidelines draft\".",
+  "version": "0.1.0",
+  "author": {
+    "name": "Codaptive Labs",
+    "url": "https://codaptivelabs.com"
+  },
+  "homepage": "https://codaptivelabs.com/skills",
+  "license": "MIT"
+}

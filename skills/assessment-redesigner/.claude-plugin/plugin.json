@@ -1,0 +1,11 @@
+{
+  "name": "assessment-redesigner",
+  "description": "Redesigns an assignment for the age of AI. Hand it an assessment that AI can now produce convincing work for, and it maps which parts AI has made trivial, names what the task was really trying to measure, and rebuilds it so the student's thinking is visible again — working through a five-category redesign framework, fitted to your class size, modality, and grading capacity. Use when an assignment feels newly defeatable (\"students can just use ChatGPT for this\"), when rethinking a whole course's assessments, or when you want to move past detection and bans to redesign. Trigger phrases include \"redesign this assignment\", \"make this AI-resistant\", \"AI-proof my assessment\", \"rethink my assessments\", \"students can just use AI for this\", \"assessment redesign\".",
+  "version": "0.1.0",
+  "author": {
+    "name": "Codaptive Labs",
+    "url": "https://codaptivelabs.com"
+  },
+  "homepage": "https://codaptivelabs.com/skills",
+  "license": "MIT"
+}

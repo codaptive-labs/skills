@@ -1,0 +1,37 @@
+# ─────────────────────────────────────────────────────────────────────────
+#  ALLOWLIST .gitignore — this repo is PUBLIC.
+#  Everything is ignored by default; only the paths explicitly un-ignored
+#  below can ever be tracked. Dropping a new file in the repo does NOT stage
+#  it unless it matches an allow rule — accidental inclusion takes real effort.
+# ─────────────────────────────────────────────────────────────────────────
+
+# 1) Ignore everything at the root.
+/*
+
+# 2) Permit only public content + generic (secret-free) tooling.
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/LICENSE
+!/PUBLISHING.md
+!/skills/
+!/agents/
+!/packs/
+!/.claude-plugin/
+!/scripts/
+!/.githooks/
+
+# 3) Belt-and-suspenders: never publish these even inside a permitted dir.
+**/.env
+**/.env.*
+**/*.local
+**/*.pem
+**/*.key
+**/id_rsa*
+**/.DS_Store
+**/node_modules/
+
+# 4) The private denylist must NEVER live in this public repo. It belongs in
+#    your home directory. These rules make it un-trackable even if copied in.
+**/*denylist*
+**/.codaptive-skills-denylist.txt

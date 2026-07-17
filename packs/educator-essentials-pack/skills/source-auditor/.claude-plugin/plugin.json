@@ -1,0 +1,11 @@
+{
+  "name": "source-auditor",
+  "description": "Checks the citations and factual claims in a draft so fabricated sources don't slip through. It extracts every citation and checkable claim, verifies each source actually exists and actually supports the claim attached to it, and returns a verdict table — confirmed, unverifiable, or contradicted — so your manual follow-up is minutes, not an afternoon. Built for AI-drafted or AI-assisted writing, where invented references are the loudest failure mode. Use to fact-check citations, verify sources, or vet a draft you don't yet trust. Trigger phrases include \"check these citations\", \"are these sources real\", \"verify the references\", \"fact-check this draft\", \"did AI make up these citations\".",
+  "version": "0.1.0",
+  "author": {
+    "name": "Codaptive Labs",
+    "url": "https://codaptivelabs.com"
+  },
+  "homepage": "https://codaptivelabs.com/skills",
+  "license": "MIT"
+}

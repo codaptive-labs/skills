@@ -1,0 +1,25 @@
+#!/bin/sh
+# Pre-push safety gate for the PUBLIC codaptive-skills repo.
+# Runs the pre-publish scan; if anything is flagged, the push is aborted and
+# NOTHING leaves the machine. Activated via:  git config core.hooksPath .githooks
+set -e
+
+ROOT="$(git rev-parse --show-toplevel)"
+
+echo "── Pre-publish safety scan ──────────────────────────────"
+if ! node "$ROOT/scripts/check-private.mjs"; then
+  echo ""
+  echo "✗ Push aborted by the pre-publish scan. Nothing was pushed."
+  exit 1
+fi
+
+# Optional second layer: gitleaks, if it happens to be installed.
+if command -v gitleaks >/dev/null 2>&1; then
+  echo "── gitleaks ─────────────────────────────────────────────"
+  if ! gitleaks detect --source "$ROOT" --no-banner --redact; then
+    echo "✗ gitleaks flagged potential secrets. Push aborted."
+    exit 1
+  fi
+fi
+
+echo "✓ Safety gate passed — proceeding with push."

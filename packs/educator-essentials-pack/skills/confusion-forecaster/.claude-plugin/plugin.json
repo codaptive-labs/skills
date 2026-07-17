@@ -1,0 +1,11 @@
+{
+  "name": "confusion-forecaster",
+  "description": "Reads instructional material the way the most literal capable student will, and hands back a ranked confusion forecast before you publish — so you fix the unclear instruction now instead of discovering it in a week of student emails. Feed it an assignment sheet, lesson plan, syllabus section, rubric, or module page; it does a cold first-read, flags every ambiguity, hidden prerequisite, ordering problem, and load spike, ranks them by how many emails each will actually generate, and proposes the smallest edit that removes each one without touching your voice. Use when drafting or revising anything students will read and follow on their own. Trigger phrases include \"is this assignment clear\", \"will students understand this\", \"proofread my instructions\", \"check my assignment sheet\", \"did I explain this well\", \"before I post this to the LMS\", \"read this like a student\", \"why is everyone confused about\".",
+  "version": "0.1.0",
+  "author": {
+    "name": "Codaptive Labs",
+    "url": "https://codaptivelabs.com"
+  },
+  "homepage": "https://codaptivelabs.com/skills",
+  "license": "MIT"
+}

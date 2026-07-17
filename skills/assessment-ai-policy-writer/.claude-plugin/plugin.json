@@ -1,0 +1,11 @@
+{
+  "name": "assessment-ai-policy-writer",
+  "description": "Sets clear AI expectations one assessment at a time. For each task it places the work on an augmentation spectrum (from no-AI to full collaboration), decides what's allowed, off-limits, and must be disclosed — each with the pedagogical reason — and writes student-facing policy language in plain English. When the term's assessments each have a policy, it rolls them up into a coherent syllabus section. Use when writing an AI policy for an assignment or course, deciding what AI use to allow, or drafting syllabus AI language. Trigger phrases include \"AI policy for this assignment\", \"what AI use should I allow\", \"syllabus AI statement\", \"can students use AI on this\", \"write my AI policy\".",
+  "version": "0.1.0",
+  "author": {
+    "name": "Codaptive Labs",
+    "url": "https://codaptivelabs.com"
+  },
+  "homepage": "https://codaptivelabs.com/skills",
+  "license": "MIT"
+}

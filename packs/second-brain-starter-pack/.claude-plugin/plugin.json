@@ -1,0 +1,11 @@
+{
+  "name": "second-brain-starter-pack",
+  "version": "0.1.0",
+  "description": "A working second brain in a box: a wrap-up skill that persists what each session learned, a librarian agent that answers from your notes, and a devil's-advocate agent that pressure-tests your decisions. Requires an agentic surface (Claude Code or Cowork).",
+  "author": {
+    "name": "Codaptive Labs",
+    "url": "https://codaptivelabs.com"
+  },
+  "homepage": "https://codaptivelabs.com/skills",
+  "license": "MIT"
+}
