@@ -1,0 +1,11 @@
+{
+  "name": "stakeholder-objection-simulator",
+  "description": "Pressure-tests a plan, policy, proposal, or announcement by simulating how each group that has a say in it would actually react. It builds a roster of the stakeholders it has to survive, profiles each one (what they are accountable for, what they are measured on, their risk tolerance, who they answer to), then runs every persona in an isolated context so no one is influenced by another's reaction. Returns, per stakeholder, the objection they would voice out loud, the interest actually driving it, their verdict, and what would move them — then which objections must be answered before you go, and where two stakeholders want incompatible things. Use before circulating a proposal, rollout plan, policy draft, budget request, reorg, or all-staff announcement. Trigger phrases include \"how will this land\", \"who is going to push back on this\", \"what objections should I expect\", \"pressure-test this proposal\", \"before I take this to the committee\", \"how do I get buy-in\".",
+  "version": "0.1.0",
+  "author": {
+    "name": "Codaptive Labs",
+    "url": "https://codaptivelabs.com"
+  },
+  "homepage": "https://codaptivelabs.com/skills",
+  "license": "MIT"
+}

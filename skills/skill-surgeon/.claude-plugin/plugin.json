@@ -1,0 +1,11 @@
+{
+  "name": "skill-surgeon",
+  "description": "Examines, explains, and customizes the skills you already have — ones you built, ones you downloaded, ones you've forgotten. In single-skill mode it produces a full diagnostic (what the skill is for, how it triggers, the steps it follows, its parameters and dependencies, plus a check for anything surprising in third-party skills), then proposes customizations grounded in what your AI platform already knows about you and your work, and applies the edits you approve — always with a backup first. In sweep mode it audits every installed skill and returns a fleet report; which are high-value for your actual work, which overlap, which are stale, and which warrant surgery. Use whenever the user wants to understand, vet, audit, tune, personalize, or modify an existing skill — even if they don't say \"skill\" (e.g., \"what does this slash command do\", \"make this tool fit how I work\"). Trigger phrases include \"what does this skill do\", \"analyze this skill\", \"customize this skill\", \"audit my skills\", \"what skills do I have\", \"skill checkup\", \"is this skill safe\", \"I downloaded this skill\", \"make this skill mine\". For building a brand-new skill from scratch, use a skill-creation tool instead — Skill Surgeon operates only on skills that already exist.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Codaptive Labs",
+    "url": "https://codaptivelabs.com"
+  },
+  "homepage": "https://codaptivelabs.com/skills",
+  "license": "MIT"
+}

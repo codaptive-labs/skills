@@ -34,12 +34,36 @@
       "category": "pack"
     },
     {
-      "name": "ai-guidelines-workshop",
-      "description": "A process companion for writing AI guidelines for a team, department, or program — not a document generator. Drafting the document is the easy part; the process is where efforts stall, across stakeholders, feedback rounds, and revisions over weeks. This keeps the working state of the effort — stakeholder map, decision log, open questions, draft-in-progress — so every session starts where the last one ended, and drafts with a three-camps diagnostic and an augmentation-spectrum backbone. Use when developing AI guidelines, an AI policy, or usage principles for an organization. Trigger phrases include \"write AI guidelines for my department\", \"develop an AI policy\", \"AI usage principles\", \"our team needs AI guidelines\", \"resume the guidelines draft\".",
+      "name": "stakeholder-objection-simulator",
+      "description": "Pressure-tests a plan, policy, proposal, or announcement by simulating how each group that has a say in it would actually react. It builds a roster of the stakeholders it has to survive, profiles each one (what they are accountable for, what they are measured on, their risk tolerance, who they answer to), then runs every persona in an isolated context so no one is influenced by another's reaction. Returns, per stakeholder, the objection they would voice out loud, the interest actually driving it, their verdict, and what would move them — then which objections must be answered before you go, and where two stakeholders want incompatible things. Requires an agentic surface (Claude Code or Cowork). Trigger phrases include \"how will this land\", \"who is going to push back on this\", \"what objections should I expect\", \"pressure-test this proposal\", \"before I take this to the committee\".",
       "source": {
         "source": "git-subdir",
         "url": "codaptive-labs/skills",
-        "path": "skills/ai-guidelines-workshop",
+        "path": "skills/stakeholder-objection-simulator",
+        "ref": "main"
+      },
+      "homepage": "https://codaptivelabs.com/skills",
+      "category": "skill"
+    },
+    {
+      "name": "workflow-fit-map",
+      "description": "Maps a real work process step by step and marks each step automate, augment, keep human, or eliminate — with the reason, the failure mode, and what it would take to get there. It asks for the detail it is missing before analyzing rather than guessing, checks what AI can currently do for the specific operations involved instead of working from assumption, and hands genuinely borderline steps back to you as decisions rather than deciding them. It also steps back once to ask whether the workflow itself should be rebuilt instead of optimized. Use when a team has been told to \"use AI\" with no map, when deciding where a tool would actually help, or when an automation attempt failed. Trigger phrases include \"where could AI help in this process\", \"should we automate this\", \"map this workflow\", \"what parts of my job could AI do\", \"is this worth automating\".",
+      "source": {
+        "source": "git-subdir",
+        "url": "codaptive-labs/skills",
+        "path": "skills/workflow-fit-map",
+        "ref": "main"
+      },
+      "homepage": "https://codaptivelabs.com/skills",
+      "category": "skill"
+    },
+    {
+      "name": "audience-translator",
+      "description": "Rewrites a piece of writing for a different audience without losing what made it true. It reads the source first — what it actually conveys, at what register, assuming what prior knowledge — separates the difficulty that is the content from the difficulty that is only packaging, then rebuilds it for the audience you name, moving only the dimensions that need to move. Works in every direction: expert to newcomer, technical to general, casual to formal, dense to plain, and across levels of English proficiency. Returns the adaptation plus a change log of what moved, what could not survive the move, and what the new format needs that the source never had. Use to adapt, rewrite, pitch, translate, or re-level any piece of writing for a specific reader. Trigger phrases include \"rewrite this for\", \"make this accessible to\", \"explain this to a non-technical audience\", \"adapt this for students\", \"turn this into a proposal\", \"simplify this without dumbing it down\", \"our ESL students can't follow this\", \"this is too technical for\".",
+      "source": {
+        "source": "git-subdir",
+        "url": "codaptive-labs/skills",
+        "path": "skills/audience-translator",
         "ref": "main"
       },
       "homepage": "https://codaptivelabs.com/skills",

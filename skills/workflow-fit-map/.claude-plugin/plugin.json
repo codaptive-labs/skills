@@ -1,0 +1,11 @@
+{
+  "name": "workflow-fit-map",
+  "description": "Maps a real work process step by step and marks each step automate, augment, keep human, or eliminate — with the reason, the failure mode, and what it would take to get there. It asks for the detail it is missing before analyzing rather than guessing, checks what AI can currently do for the specific operations involved instead of working from assumption, and hands genuinely borderline steps back to you as decisions rather than deciding them. It also steps back once to ask whether the workflow itself should be rebuilt instead of optimized. Use when a team has been told to \"use AI\" with no map, when deciding where a tool would actually help, when an automation attempt failed, or when documenting a process for handoff. Trigger phrases include \"where could AI help in this process\", \"should we automate this\", \"map this workflow\", \"what parts of my job could AI do\", \"we were told to use AI and don't know where to start\", \"is this worth automating\".",
+  "version": "0.1.0",
+  "author": {
+    "name": "Codaptive Labs",
+    "url": "https://codaptivelabs.com"
+  },
+  "homepage": "https://codaptivelabs.com/skills",
+  "license": "MIT"
+}
