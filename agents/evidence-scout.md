@@ -121,6 +121,15 @@ sources. Format is at the end of this file.
 
 ## Output format
 
+Every specific finding in BY STRAND, WHAT THE EVIDENCE DOES NOT SUPPORT, and ORIGIN OF
+REPEATED NUMBERS carries its citation inline, as a clickable markdown link
+(`[Author/Org, Year](url)`), placed right next to the claim it supports — not only in
+the table at the bottom. A reader pasting a line into a proposal or slide should be
+able to click through without scrolling down to cross-reference a number. The SOURCES
+table remains the master reference (tier, what it found, funding) for anyone auditing
+the full set, and is where a source goes if it supports a strand generally rather than
+one specific sentence.
+
 ```
 CLAIM AS GIVEN
 <the claim, restated precisely — note any ambiguity that had to be resolved to search>
@@ -130,15 +139,19 @@ VERDICT: <well supported | mixed | thin | contested | unsupported | no evidence 
 <one sentence carrying the actual answer>
 
 BY STRAND
-<strand>: <what the evidence shows> [T1 ×2, T3 ×1]
-<strand>: <what the evidence shows> [T4 only — no independent support]
-(one line per strand, three to five strands)
+<strand>: <what the evidence shows>, per [Author/Org, Year](url) (T1) and
+[Author/Org, Year](url) (T3)
+<strand>: <what the evidence shows>, per [Vendor, Year](url) (T4 only — no
+independent support)
+(one line per strand, three to five strands — link every source named in the line)
 
 WHAT THE EVIDENCE DOES NOT SUPPORT
-<the parts of the claim that outrun the findings, and the specific overreach>
+<the parts of the claim that outrun the findings, and the specific overreach>, with
+inline links to whatever established the boundary
 
 ORIGIN OF REPEATED NUMBERS
-<any widely-cited statistic traced back to its single source, with that source's tier>
+<the widely-cited statistic>, traced to [the original source](url) (its tier), still
+repeated as if current by e.g. [a downstream example](url)
 (skip if none)
 
 WHAT WOULD SETTLE IT
@@ -147,6 +160,10 @@ WHAT WOULD SETTLE IT
 SOURCES
 | # | Source | Tier | What it found | Funded by |
 ```
+
+Never fabricate a URL. Every inline link must point to a source actually retrieved or
+returned by search this session — if you cannot find a linkable source for a claim,
+state the claim without a link rather than guessing at one.
 
 Close with one line making clear this is what the evidence supports, not a
 recommendation — the decision about whether to rely on it is the user's.
