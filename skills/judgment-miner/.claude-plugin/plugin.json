@@ -1,0 +1,11 @@
+{
+  "name": "judgment-miner",
+  "description": "Extracts the decision rules you follow but have never written down — by making you rule on real cases instead of asking what your criteria are. In mine mode it builds cases from your own past decisions with exactly one thing changed, walks that one variable until your answer flips to find where your line actually sits, then reports the rule you are applying, the threshold, and any case where you contradicted yourself. In apply mode it stays quiet until a live decision touches a rule you have already established, surfaces that rule and the nearest cases you ruled on, and speaks up when a decision falls outside your established line. Use when writing a policy, delegating judgment, training someone, or trying to explain a call you made on instinct. Trigger phrases include \"what did I do last time\", \"have I done this before\", \"should we make an exception for\", \"how did I handle the last one of these\", \"what is my rule for\", \"why did I decide that\", \"help me write the criteria\", \"I know it when I see it\".",
+  "version": "0.1.0",
+  "author": {
+    "name": "Codaptive Labs",
+    "url": "https://codaptivelabs.com"
+  },
+  "homepage": "https://codaptivelabs.com/skills",
+  "license": "MIT"
+}

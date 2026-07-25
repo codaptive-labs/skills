@@ -34,6 +34,18 @@
       "category": "pack"
     },
     {
+      "name": "judgment-miner",
+      "description": "Extracts the decision rules you follow but have never written down — by making you rule on real cases instead of asking what your criteria are. In mine mode it builds cases from your own past decisions with exactly one thing changed, walks that one variable until your answer flips to find where your line actually sits, then reports the rule you are applying, the threshold, and any case where you contradicted yourself. In apply mode it stays quiet until a live decision touches a rule you have already established, surfaces that rule and the nearest cases you ruled on, and speaks up when a decision falls outside your established line. Use when writing a policy, delegating judgment, training someone, or trying to explain a call you made on instinct. Trigger phrases include \"what did I do last time\", \"have I done this before\", \"should we make an exception for\", \"how did I handle the last one of these\", \"what is my rule for\", \"why did I decide that\", \"help me write the criteria\", \"I know it when I see it\". Requires an agentic surface (Claude Code or Cowork).",
+      "source": {
+        "source": "git-subdir",
+        "url": "codaptive-labs/skills",
+        "path": "skills/judgment-miner",
+        "ref": "main"
+      },
+      "homepage": "https://codaptivelabs.com/skills",
+      "category": "skill"
+    },
+    {
       "name": "stakeholder-objection-simulator",
       "description": "Pressure-tests a plan, policy, proposal, or announcement by simulating how each group that has a say in it would actually react. It builds a roster of the stakeholders it has to survive, profiles each one (what they are accountable for, what they are measured on, their risk tolerance, who they answer to), then runs every persona in an isolated context so no one is influenced by another's reaction. Returns, per stakeholder, the objection they would voice out loud, the interest actually driving it, their verdict, and what would move them — then which objections must be answered before you go, and where two stakeholders want incompatible things. Requires an agentic surface (Claude Code or Cowork). Trigger phrases include \"how will this land\", \"who is going to push back on this\", \"what objections should I expect\", \"pressure-test this proposal\", \"before I take this to the committee\".",
       "source": {
