@@ -42,9 +42,13 @@ answer attached.
 
 If the context holds nothing usable, do not invent a scenario. Ask for exactly one real
 decision the user made recently and what they decided, and say why you are asking. One
-anchor is enough to start. See `references/dimension-maps.md` for the bundled starter maps
-covering the four most common domains, and for how to derive axes in a domain that is not
-one of them.
+anchor is enough to start.
+
+`references/dimension-maps.md` carries the method for working out which axes a domain varies
+along. That method is the general case and applies to any domain — sort the precedents by
+outcome and ask what differs between the piles. The file also bundles starter maps for four
+common domains, for when there is too little context to derive from; treat those as a
+hypothesis to correct, never as the list of domains this works on.
 
 ### 2. Probe the boundary
 
