@@ -1,0 +1,11 @@
+{
+  "name": "think-tank",
+  "description": "Convenes a panel of analysts who examine your idea independently and return real recommendations. Each runs in its own isolated context, seeing everything you have but none of the other analysts' work and no hint of which way you are leaning, and returns a verdict, its confidence, and what would change its mind. Ships with eight standing seats, each a fully specified stance rather than a job title, and adds domain experts the question calls for. The report is built on what only separation produces: where independent analysts converged, where they genuinely conflict and whether the conflict is factual or a value, and what exactly one of them saw. Use before committing to a direction, when choosing between approaches, or when an idea feels right and you cannot say why. Trigger phrases include \"is this the right approach\", \"help me decide between\", \"convene the think tank\", \"analyze this from every angle\", \"I need a second opinion\", \"what am I not seeing here\", \"stress-test this strategy\".",
+  "version": "0.1.0",
+  "author": {
+    "name": "Codaptive Labs",
+    "url": "https://codaptivelabs.com"
+  },
+  "homepage": "https://codaptivelabs.com/skills",
+  "license": "MIT"
+}
