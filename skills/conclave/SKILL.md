@@ -1,10 +1,10 @@
 ---
-name: think-tank
-description: Convenes a panel of analysts who examine your idea independently and return real recommendations. Each runs in its own isolated context, seeing everything you have but none of the other analysts' work and no hint of which way you are leaning, and returns a verdict, its confidence, and what would change its mind. Ships with eight standing seats, each a fully specified stance rather than a job title, and adds domain experts the question calls for. The report is built on what only separation produces: where independent analysts converged, where they genuinely conflict and whether the conflict is factual or a value, and what exactly one of them saw. Use before committing to a direction, when choosing between approaches, or when an idea feels right and you cannot say why. Trigger phrases include "is this the right approach", "help me decide between", "convene the think tank", "analyze this from every angle", "I need a second opinion", "what am I not seeing here", "stress-test this strategy".
+name: conclave
+description: Convenes a panel of analysts who examine your idea independently and return real recommendations. Each runs in its own isolated context, seeing everything you have but none of the other analysts' work and no hint of which way you are leaning, and returns a verdict, its confidence, and what would change its mind. Ships with eight standing seats, each a fully specified stance rather than a job title, and adds domain experts the question calls for. The report is built on what only separation produces: where independent analysts converged, where they genuinely conflict and whether the conflict is factual or a value, and what exactly one of them saw. Use before committing to a direction, when choosing between approaches, or when an idea feels right and you cannot say why. Trigger phrases include "is this the right approach", "help me decide between", "convene the conclave", "convene the panel", "analyze this from every angle", "I need a second opinion", "what am I not seeing here", "stress-test this strategy".
 license: MIT
 ---
 
-# Think Tank
+# Conclave
 
 You have been living inside this idea for a week. You know its strongest version, you have
 answered the obvious objections, and you can no longer tell whether it is good or whether
@@ -17,6 +17,9 @@ problem, it conceals it. Six voices in one window, each able to see what the oth
 said, converge politely near the position you walked in with. It reads like a panel and
 behaves like a mirror. The fix is analysts who cannot hear each other.
 
+A conclave is an assembly sealed off from outside influence that deliberates and emerges with a
+decision. That is the mechanism here, so it is the name.
+
 ## When to run it
 
 When you are about to commit — to a direction, a strategy, a design, anything expensive to
@@ -24,6 +27,18 @@ reverse. When you are choosing between approaches and the tradeoffs will not sit
 something feels right and you cannot say why, which is usually the moment before you find out.
 
 Not for small questions. If the decision is cheap to undo, undo it later instead.
+
+And when it does not warrant a panel, say so rather than convening one out of politeness. A run
+costs five to nine full contexts, so a question that does not need one deserves an actual exit.
+Three of them:
+
+- **Answer it directly.** Most questions that arrive phrased as decisions have an answer. Give it.
+- **Seat two or three analysts instead of eight.** For a real but contained question — one where
+  you can name the two lenses that matter — run a short panel and the same synthesis.
+- **Say what would make it worth a full run.** Usually that the decision has become expensive to
+  reverse, or that the disagreement turned out to be about values rather than facts.
+
+Take the exit before the framing step, not after the roster is on screen.
 
 ## Where it works
 
@@ -42,14 +57,17 @@ and run them on a faster model while the synthesis stays on the strongest availa
 ## The procedure
 
 Four steps. `references/seating-the-panel.md` carries the context block and the roster
-method, `references/the-conclave.md` the eight standing seats and how a lens is specified,
+method, `references/the-bench.md` the eight standing seats and how a lens is specified,
 and `references/brief-and-verdict.md` the brief, the sealed verdict, and the synthesis. Read
 each when you reach it.
 
 1. **Fix the question, then build the context every analyst receives.** Not the topic — the
    decision: what is being chosen between, what counts as this having gone well, what is
-   fixed, what is already settled. State it back in five lines and have it corrected, because
-   a vague question returns a vague verdict eight times in parallel. Then assemble it with the
+   fixed, what is already settled. Four rules govern how it gets written — the status quo is one
+   of the options, the framing does not presuppose action, the objective is separated from the
+   method, and each constraint is marked hard or soft. State it back in five lines and have it
+   corrected, because a vague question returns a vague verdict eight times in parallel and a
+   framing error is the one mistake that reaches every seat. Then assemble it with the
    situation as it actually stands and the user's material into one compact block that goes to
    every seat. Nothing is withheld to manufacture difference between seats. Two deliberate
    handlings: the user's own case *for* the idea is labelled as advocacy rather than passed off
@@ -71,10 +89,11 @@ each when you reach it.
 
 4. **Synthesize, then let the user go back in.** Only once every verdict is in. Follow
    `references/brief-and-verdict.md`: the panel at a glance, then the distillation — where the
-   lenses agree, where they argue and whether each argument is factual or about values, what
-   one analyst saw alone, which seats ruled against their own disposition, and the balanced
-   read across all of it. Then every verdict in full, unedited, for the reader who wants to
-   dig rather than take the summary.
+   lenses agree and how independently, where they argue and whether each argument is factual or
+   about values, what one analyst saw alone, which seats ruled against their own disposition, the
+   balanced read across all of it, the strongest objection to that read and why it did not carry,
+   and the decision conditions that give it a next action and an expiry. Then every verdict in
+   full, unedited, for the reader who wants to dig rather than take the summary.
 
 ## The pivot it is built on
 
@@ -83,6 +102,11 @@ analysts landing on the same recommendation is corroboration, close to the stron
 an exercise like this generates. The identical agreement from analysts who can see each
 other's work is contagion. The two are indistinguishable in the output, which is why the
 isolation has to be structural rather than requested.
+
+Isolation earns that signal but does not grade it. Two separated seats can still land together
+because they read the same page or ran the same premise in different words, so the synthesis
+sorts every convergence into independent, shared-source, or shared-argument. Only the first is
+worth what agreement appears to be worth.
 
 So the report is organized around what a shared context destroys: convergence reached
 independently, conflict nobody smoothed over, and the observation exactly one analyst made —
@@ -104,7 +128,9 @@ accepts as evidence returns a different conclusion from identical facts.
   and do not average two verdicts into a moderate one. Unresolved contradiction between
   independent analysts is a finding, not a defect in the output.
 - **Every analyst commits.** A verdict, a confidence level, and what would change its mind.
-  "It depends" is not a verdict; name what it depends on, then rule.
+  "It depends" is not a verdict; name what it depends on, then rule. `verify first` is available
+  and is not an exemption — a seat using it owes the exact thing to establish, what answer flips
+  it which way, and what is safe to do meanwhile.
 - **Depth in the persona, not asymmetry in the data.** Every seat sees everything. What makes
   two verdicts differ is how far apart their lenses were written — above all, what each is
   told to discount.
